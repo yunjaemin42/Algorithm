@@ -1,8 +1,24 @@
 #include <stdio.h>
 
+
 int main(){
-    printf("int 자료형의 크기: %d바이트\n", sizeof(int));
-    printf("float 자료형의 크기: %d바이트\n", sizeof(float));
-    printf("char 자료형의 크기: %d바이트\n", sizeof(char));
-    printf("double 자료형의 크기: %d바이트\n",sizeof(double));
-} 
+    /*
+    long long int s=0;
+    long long int high,low;
+    scanf("%lld",&input);
+
+    
+    if(s==0)    printf("0");
+    else if(s>0)    printf("+");
+    else printf("-");
+*/
+    int N;
+    int fac=1;
+
+    scanf("%d",&N);
+    for(int i = 1;i<=N;i++){
+        
+        fac*=i;
+    }
+    printf("%d"fac);
+    }
